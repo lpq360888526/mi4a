@@ -18,3 +18,7 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+git clone https://github.com/lpq360888526/luci-app-fzu.git package/luci-app-fzu
+git clone https://github.com/lucikap/luci-app-brukamen.git package/luci-app-brukamen
+git clone https://github.com/Zxilly/UA2F.git package/UA2F
+git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
